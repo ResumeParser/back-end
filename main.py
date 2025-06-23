@@ -98,6 +98,7 @@ You are an expert resume parser. Based on the resume text provided below, extrac
 **IMPORTANT RULES:**
 - You MUST only respond with the single JSON object. Do not add any introductory text, explanations, or markdown formatting like ```json.
 - The 'experience' and 'education' fields MUST be arrays (lists) of objects, even if only one item is found for each.
+- Be extremely careful with spelling and numbers. Extract information as accurately as possible, preferring to copy it verbatim.
 - If a specific piece of information is not found in the resume, use "Not specified" for string fields or an empty list `[]` for arrays like 'skills', 'experience', or 'education'.
 
 **RESUME TEXT TO PARSE:**
